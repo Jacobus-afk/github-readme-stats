@@ -163,6 +163,7 @@ const getStyles = ({
     .bold { font-weight: 700 }
     .icon {
       fill: ${iconColor};
+      stroke: ${textColor};
       display: ${show_icons ? "block" : "none"};
     }
 
